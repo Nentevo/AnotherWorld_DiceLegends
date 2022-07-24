@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/home"
+    android:layout_height="match_parent">
+
+<!--    tools:context=".Room0"-->
+
+
+    <ImageView
+        android:id="@+id/imageView_skull"
+        android:layout_width="201dp"
+        android:layout_height="237dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:srcCompat="@drawable/kulou"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="48dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="335dp"
+        android:layout_marginBottom="655dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/backpack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Dice_for_Battle"
+        android:layout_width="66dp"
+        android:layout_height="64dp"
+        android:background="@drawable/dice"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_show"
+        app:srcCompat="@drawable/dice" />
+
+    <TextView
+        android:id="@+id/textView_show"
+        android:layout_width="339dp"
+        android:layout_height="193dp"
+        android:background="@drawable/shape"
+        android:scrollbars="vertical"
+        android:text=" "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton_closelog"
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_show"
+        app:layout_constraintEnd_toEndOf="@+id/textView_show"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <LinearLayout
+        android:layout_width="139dp"
+        android:layout_height="141dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView_show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView_show"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9">
+
+        <TextView
+            android:id="@+id/textView_show_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="      "
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/textView_show_attackpower"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="      "
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="81dp" />
+
+        <TextView
+            android:id="@+id/textView_show_defensepower"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="      "
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="120dp" />
+
+        <TextView
+            android:id="@+id/textView_show_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="      "
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="120dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="151dp"
+        android:layout_height="65dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView_show"
+        app:layout_constraintTop_toBottomOf="@+id/textView_show">
+
+        <TextView
+            android:id="@+id/textView_show_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView_show"
+            app:layout_constraintTop_toTopOf="@+id/imageButton_Dice_for_Battle"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView_show_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView_show"
+            app:layout_constraintTop_toTopOf="@+id/imageButton_Dice_for_Battle"
+            app:layout_constraintVertical_bias="0.397" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton_next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView_show"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton_Dice_for_Battle"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

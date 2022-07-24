@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Another World</string>
+    <string name="new_game">新游戏</string>
+    <string name="edit_character">创建角色</string>
+    <string name="character_name">角色姓名</string>
+    <string name="start_game">开始游戏</string>
+    <string name="character_hp_init">初始生命值</string>
+    <string name="character_attackpower_init">初始攻击力</string>
+    <string name="character_defensepower_init">初始防御力</string>
+    <string name="character_speed_init">初始速度值</string>
+    <string name="endTime">endtime</string>
+    <string name="beginTime">begintime</string>
+
+    <string name="DamningEdict_declaration">
+    <Data>
+        <![CDATA[卡奥斯发动了<br><br><b><font color="#7537aa">「诅咒法令」</font></b>！<br><br>
+        掷1d20<br>
+        1-15：我方速度将变为<b><font color="#7537aa">0</font></b><br>
+        16-20：我方速度不变]]>
+    </Data>
+</string>
+
+    <string name="DamningEdict_succeed">
+    <Data>
+        <![CDATA[<b><font color="#7537aa">「诅咒法令」</font></b>判定成功！
+        <br><br>我方速度将变为<b><font color="#7537aa">0</font></b>！<br><br>
+        战斗开始！]]>
+    </Data>
+</string>
+
+    <string name="DamningEdict_fail">
+    <Data>
+        <![CDATA[<b><font color="#7537aa">「诅咒法令」</font></b>判定失败！
+        <br><br>我方速度不变！<br><br>战斗开始！]]>
+    </Data>
+</string>
+
+
+    <string name="ChaoticDispersion_declaration">
+    <Data>
+        <![CDATA[卡奥斯发动了<br><br><b><font color="#ff0000">「混沌弥散」</font></b>！<br><br>
+        掷1d20<br>
+        1-15：我方生命值<b><font color="#ff0000">降低一半</font></b><br>
+        16-20：我方生命值不变]]>
+    </Data>
+</string>
+
+    <string name="ChaoticDispersion_succeed">
+    <Data>
+        <![CDATA[<b><font color="#ff0000">「混沌弥散」</font></b>判定成功！
+        <br><br>我方生命值<b><font color="#ff0000">降低了一半</font></b>！]]>
+    </Data>
+</string>
+
+    <string name="ChaoticDispersion_fail">
+    <Data>
+        <![CDATA[<b><font color="#7537aa">「混沌弥散」</font></b>判定失败！
+        <br><br>我方生命值不变！]]>
+    </Data>
+</string>
+
+
+</resources>

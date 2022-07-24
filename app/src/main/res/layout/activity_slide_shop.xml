@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Shop">
+
+
+
+
+    <com.room227.anotherworld.SlideMenu
+        android:id="@+id/slideMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_menu"/>
+        <include layout="@layout/activity_shop"/>
+
+
+    </com.room227.anotherworld.SlideMenu>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
